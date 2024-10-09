@@ -18,3 +18,6 @@ if (process.env.NODE_ENV !== 'test') {
 }
 
 module.exports = app;
+
+app.use('/api/v1/auth', require('./routes/authRoutes'));
+app.use(require('./middleware/errorHandler'));
