@@ -21,3 +21,4 @@ module.exports = app;
 
 app.use('/api/v1/auth', require('./routes/authRoutes'));
 app.use(require('./middleware/errorHandler'));
+app.use('/api/v1/tasks', require('./routes/taskRoutes'));
