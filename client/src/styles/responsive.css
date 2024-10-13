@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+  .task-board-grid {
+    grid-template-columns: 1fr;
+  }
+}
