@@ -1,0 +1,16 @@
+{
+  "name": "pulseops",
+  "version": "1.0.0",
+  "description": "Agile Operations & Workflow Platform",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0"
+  }
+}
