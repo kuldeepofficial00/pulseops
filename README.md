@@ -11,3 +11,7 @@ PulseOps is an enterprise-grade operations and team workflow management system b
 - End-to-end JWT authentication with bearer header authorization
 - Indexed compound database queries for fast execution
 - Strict CORS configuration and centralized exception handler
+
+## Containerized Deployment
+Run the entire platform with Docker Compose:
+- docker-compose up --build -d
